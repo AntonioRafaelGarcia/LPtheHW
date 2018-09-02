@@ -21,5 +21,5 @@ print(f"""
 Alright, so you said {likes} about liking me.
 You live in {lives}. Not sure where that is.
 You have a {computer} computer. Nice.
-Lastly, dick game is {dick_game}. ::crickets::
+Lastly, dat dick game is {dick_game}. ::crickets::
 """)
