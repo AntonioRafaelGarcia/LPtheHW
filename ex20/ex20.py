@@ -36,10 +36,13 @@ print("Let's print three lines:")
 
 # thrice calls function print_a_line using the opened argv-designated file variable, iterating up from 1
 current_line = 1
+# current_line is 1, passed as line_count variable into function print_a_line
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+# iterates current_line up 1 to 2, passed as line_count variable into function print_a_line
+current_line += current_line
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+# iterates current_line up 1 to 3, passed as line_count variable into function print_a_line
+current_line += current_line
 print_a_line(current_line, current_file)
